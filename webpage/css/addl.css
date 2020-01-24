@@ -144,6 +144,11 @@ a.contact-num:hover {color: #000; text-decoration: underline #999999;}
       .block h3 {
         line-height: 1.3;
       }
+      .block .lead .text-ribbon,
+      .block .display-6 {
+        font-size: 1.75rem;
+        line-height: 1.3;
+      }
     }
 
 
