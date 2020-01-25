@@ -468,7 +468,7 @@ fieldset[disabled] a.btn {
   }
 }
 
-/* ----- Footer block ----- */
+/* ----- Footer Block ----- */
 
 .app-block-footer {
   background-color: rgb(0, 0, 0, 1.0);
@@ -505,6 +505,3 @@ fieldset[disabled] a.btn {
       -ms-transform: translateY(10%);
           transform: translateY(10%);
 }
-
-
-/* brand */
