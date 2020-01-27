@@ -107,10 +107,12 @@ h1.block-title {
   position: relative;
   left: 0;
   color: #fff;
+  letter-spacing: -0.02em;
 }
 
 .block-title p {
   line-height: inherit;
+  letter-spacing: -0.02em;
 }
 
 .text-pink {
@@ -134,12 +136,13 @@ a.contact-num:hover {color: #000; text-decoration: underline #999999;}
 
   @media (min-width: 576px) {
     .lead {
-      font-size: 1.25rem; }
+      font-size: 1.25rem;
+     }
     }
     @media (max-width: 768px) {
       .block .lead {
         font-size: 2.3rem;
-        line-height: 1.3;
+        line-height: 1.2;
       }
       .block h3 {
         line-height: 1.3;
