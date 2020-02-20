@@ -1,7 +1,6 @@
 /*
  * Additional overrides
- * (things that dont make sense in a toolkit :)
- *
+ * 02/20/20
  */
 
 .block {
@@ -71,9 +70,21 @@ h6, .h6 {
 
 .h1.block-title,
 h1.block-title {
-  line-height: 1.0; }
+  line-height: 0.95;
+}
 
+/* ----- Navigation ----- */
 
+.block-navbar {
+  position: relative;
+  width: 100%;
+  padding: 60px 30px;
+  color: inherit;
+  background-color: #fff;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 /* ----- Intro Text ----- */
 
@@ -116,11 +127,15 @@ h1.block-title {
 }
 
 .text-pink {
-  color: #ff00ff;
+  color: #ff00ff; /*#ff00ff*/
 }
 .text-black {
   color: #000;
 }
+.text-gray {
+  color: #999;
+}
+
 
 .d-block {
   display: block;
