@@ -419,7 +419,6 @@ fieldset[disabled] a.btn {
   width: 100%;
 }
 
-
 /* chainz block */
 .app-block-chainz {
   z-index: 5;
@@ -427,7 +426,6 @@ fieldset[disabled] a.btn {
 .app-block-chainz .block-bg {
   border-bottom: 10px solid #eee04a;
 }
-
 
 /* kanye block */
 .app-block-kanye {
@@ -437,7 +435,6 @@ fieldset[disabled] a.btn {
   border-bottom: 10px solid #ff3167;
 }
 
-
 /* mosdef block */
 .block-app-mosdef {
   z-index: 3;
@@ -446,7 +443,6 @@ fieldset[disabled] a.btn {
 .block-app-mosdef .block-bg {
   border-bottom: 10px solid #eee04a;
 }
-
 
 /* nicki */
 .app-block-nicki {
@@ -460,6 +456,15 @@ fieldset[disabled] a.btn {
   background: rgb(131,58,180);
   background: linear-gradient(176deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 }
+
+/* ----- Text ----- */
+
+.text-contact {
+  color: #999 !important;
+}
+
+a.text-contact:focus, a.text-contact:hover {
+  color: #fff !important; }
 
 
 /* ----- Stats ----- */
