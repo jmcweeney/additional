@@ -86,6 +86,10 @@ h1.block-title {
   background-repeat: no-repeat;
 }
 
+.nav {
+  /* background: rgb(131,58,180); */
+}
+
 /* ----- Intro Text ----- */
 
 .addl-intro {
@@ -177,7 +181,7 @@ a.contact-num:hover {color: #000; text-decoration: underline #999999;}
 
 .btn {
   display: inline-block;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.25;
   text-align: center;
   white-space: nowrap;
@@ -188,20 +192,27 @@ a.contact-num:hover {color: #000; text-decoration: underline #999999;}
           user-select: none;
   border: 1px solid transparent;
   padding: 0.5rem;
-  font-size: 1rem;
+  font-size: 16px;
   border-radius: 0.25rem;
+  background-color: #fff;
   -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out; }
+  transition: all 0.2s ease-in-out;
+}
+
   .btn:focus, .btn:hover {
     text-decoration: none; }
+
   .btn:focus, .btn.focus {
     outline: 0;
-    box-shadow: 0 0 0 2px rgba(104, 93, 159, 0.25); }
+    box-shadow: 0 0 0 2px rgba(104, 93, 159, 0.25);
+  }
   .btn.disabled, .btn:disabled {
     cursor: not-allowed;
-    opacity: .65; }
+    opacity: .65;
+  }
   .btn:active, .btn.active {
-    background-image: none; }
+    background-image: none;
+  }
 
 a.btn.disabled,
 fieldset[disabled] a.btn {
@@ -210,11 +221,14 @@ fieldset[disabled] a.btn {
 .btn-primary {
   color: #fff;
   background-color: #1258dc;
-  border-color: #1258dc; }
+  border-color: #1258dc;
+}
   .btn-primary:hover {
     color: #fff;
     background-color: #0a337f;
-    border-color: #0a337f; }
+    border-color: #0a337f;
+  }
+
   .btn-primary:focus, .btn-primary.focus {
     box-shadow: 0 0 0 2px rgba(104, 93, 159, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
@@ -321,6 +335,8 @@ fieldset[disabled] a.btn {
   margin-bottom: -45%;
 }
 
+/* ----- Intro Gradients ----- */
+
 .block-intro-gradient {
   background: rgb(56,56,56);
   background: linear-gradient(180deg, rgba(56,56,56,1) 0%, rgba(51,51,51,1) 35%, rgba(0,0,0,1) 100%);
@@ -397,6 +413,21 @@ fieldset[disabled] a.btn {
 .card-bold.card-danger {
   background-color: #FF3167;
 }
+
+/* ----- Work Colors & Type ----- */
+
+/* ----- AEP ----- */
+
+.text-red-aep {
+  color: #bf0012;
+}
+
+.block-aep-gradient {
+  background: rgb(220,53,69);
+  background: linear-gradient(180deg, rgba(220,53,69,1) 0%, rgba(191,0,18,1) 100%);
+}
+
+
 
 /* wayne */
 .app-block-wayne {
