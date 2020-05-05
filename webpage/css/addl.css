@@ -392,6 +392,10 @@ fieldset[disabled] a.btn {
 }
 .card-bold p {
   color: rgba(255, 255, 255, 0.7);
+  line-height: 1.6rem;
+}
+.card-bold.card-mondelez {
+  background-color: #4F2271;
 }
 .card-bold.card-good {
   background-color: #6a4ee1;
