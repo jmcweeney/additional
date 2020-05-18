@@ -91,6 +91,48 @@ h1.block-title {
   /* background: rgb(131,58,180); */
 }
 
+.prev-arrow-test {
+  display: block;
+  background-color: #666;
+  /* border: 1px solid #fff; */
+  color: #a7a7a7;
+  width: 40px;
+  height: 40px;
+  /* font-size: 1rem;
+  padding: 0.25rem 0;
+  position: relative; */
+  text-align: center;
+  line-height: 1.5;
+  border-radius: 50%;
+  opacity: 0.4;
+  transition: color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+.prev-arrow-test:hover {
+  text-decoration: none;
+  border-radius: 50%;
+  opacity: 1.0;
+}
+
+.prev-arrow {
+  width: 40px;
+  height: 40px;
+  background: #666;
+  border-radius: 50%;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.prev-arrow:hover {
+  background-color: #FF3684;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
 /* ----- Intro Text ----- */
 
 .addl-intro {
