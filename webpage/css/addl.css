@@ -182,6 +182,9 @@ h1.block-title {
 .text-gray {
   color: #999;
 }
+.text-gray-body {
+  color: #666;
+}
 
 
 .d-block {
