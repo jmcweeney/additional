@@ -66,7 +66,7 @@ h6, .h6 {
 .display-6 {
   font-size: 1.85rem;
   font-weight: 300;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .h1.block-title,
@@ -444,6 +444,9 @@ fieldset[disabled] a.btn {
 }
 .card-bold.card-mondelez {
   background-color: #4F2271;
+}
+.card-bold.card-streetshares {
+  background-color: #005ddc;
 }
 .card-bold.card-good {
   background-color: #6a4ee1;
