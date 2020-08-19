@@ -191,7 +191,7 @@ h1.block-title {
   display: block;
 }
 a.contact-num { text-decoration: underline #666666; }
-a.contact-num:hover {color: #FF3684; text-decoration: underline #FF3684;}
+a.contact-num:hover {color: #E42113; text-decoration: underline #E42113;}
 
 a.team { color: #3C539F; text-decoration: none; font-weight: 500; }
 a.team:hover {color: #333; text-decoration: underline #333;}
