@@ -144,6 +144,11 @@ h1.block-title {
   width: 50px;
 }
 
+.op-5 {
+  opacity: 0.5;
+
+}
+
 .text-ribbon {
   position: relative;
   left: 0;
