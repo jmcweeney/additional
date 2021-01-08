@@ -185,7 +185,7 @@ h1.block-title {
 }
 
 .text-pink {
-  color: #E42113; /*#FF3684 ff00ff*/
+  color: #E42113 !important;
 }
 .text-black {
   color: #000;
