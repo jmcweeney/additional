@@ -76,6 +76,10 @@ h1.block-title {
   line-height: 0.95;
 }
 
+.text-black {
+  color: #000 !important;
+}
+
 /* ----- Navigation ----- */
 
 .block-navbar {
@@ -206,7 +210,7 @@ a.team:hover {color: #333; text-decoration: underline #333;}
 .lead {
   font-size: 1.5rem;
   font-weight: 600;
-  line-height: 1.3;
+  line-height: 1.1;
   letter-spacing: -0.04em; }
 
   @media (min-width: 576px) {
@@ -365,11 +369,12 @@ fieldset[disabled] a.btn {
 /* ----- Navbar ----- */
 
 .app-navbar {
-  font-size: 13px;
-  letter-spacing: .15em;
+  font-size: 1.5rem;
+  letter-spacing: 0;
+  font-weight: 600;
 }
 .app-navbar .navbar-brand {
-  font-size: 13px;
+  font-size: 1.5rem;
 }
 
 .app-navbar .nav-item + .nav-item {
