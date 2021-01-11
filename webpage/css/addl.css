@@ -97,6 +97,10 @@ h1.block-title {
   /* background: rgb(131,58,180); */
 }
 
+.nav-link:hover, .nav-link:focus {
+  text-decoration: none;
+}
+
 .prev-arrow-test {
   display: block;
   background-color: #666;
