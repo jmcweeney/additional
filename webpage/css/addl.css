@@ -99,6 +99,7 @@ h1.block-title {
 
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .prev-arrow-test {
@@ -206,10 +207,15 @@ h1.block-title {
   display: block;
 }
 a.contact-num { text-decoration: underline #666666; }
-a.contact-num:hover {color: #E42113; text-decoration: underline #E42113;}
+a.contact-num:hover {color: #E42113; text-decoration: underline #E42113; cursor: pointer;
+}
 
 a.team { color: #3C539F; text-decoration: none; font-weight: 500; }
-a.team:hover {color: #333; text-decoration: underline #333;}
+a.team:hover {color: #333; text-decoration: underline #333; cursor: pointer; }
+
+a.text-emoji { text-decoration: none; padding: 10px; }
+a.text-emoji:hover {background-color: #fff; cursor: pointer; border-radius: 5px; }
+
 
 .lead {
   font-size: 1.5rem;
