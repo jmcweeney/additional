@@ -465,6 +465,7 @@ fieldset[disabled] a.btn {
   color: rgba(255, 255, 255, 0.7);
   line-height: 1.6rem;
   font-weight: 400;
+  font-size: 1.25rem;
 }
 .card-bold.card-mondelez {
   background-color: #4F2271;
