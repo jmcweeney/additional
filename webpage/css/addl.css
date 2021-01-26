@@ -74,7 +74,7 @@ h6, .h6 {
 .display-6-subhead {
   font-size: 2.5rem;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 .h1.block-title,
@@ -240,7 +240,7 @@ a.text-emoji:hover {background-color: #fff; cursor: pointer; border-radius: 5px;
         line-height: 1.2;
       }
       .block h3 {
-        line-height: 1.1;
+        line-height: 1.0;
       }
       .block .lead .text-ribbon {
         font-size: 1.95rem;
