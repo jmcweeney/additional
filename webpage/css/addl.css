@@ -110,7 +110,7 @@ h1.block-title {
 }
 
 .nav-link:hover, .nav-link:focus {
-  text-decoration: none;
+  text-decoration: underline;
   cursor: pointer;
 }
 
