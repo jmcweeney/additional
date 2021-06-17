@@ -2,13 +2,13 @@
 <svg width="122px" height="122px" viewBox="0 0 122 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>addl-more-less-wht</title>
     <defs>
-        <filter id="filter-1">
+        <filter color-interpolation-filters="auto" id="filter-1">
             <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
         </filter>
     </defs>
     <g id="addl-more-less-wht" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g filter="url(#filter-1)" id="np_half_3202302_000000-copy">
-            <g>
+            <g transform="translate(61.000000, 61.000000) rotate(-90.000000) translate(-61.000000, -61.000000) ">
                 <path d="M61,0 C27.3549684,0 0,27.3549684 0,61 C0,94.6450316 27.3549684,122 61,122 C94.6450316,122 122,94.6450316 122,61 C122,27.3549684 94.6450316,0 61,0 Z M60.3925684,104.347537 C36.3908637,104.347537 16.9965263,86.603922 16.9965263,64.8965895 L103.788611,64.8965895 C103.788611,86.716321 84.3942731,104.347537 60.3925684,104.347537 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
             </g>
         </g>
