@@ -218,6 +218,10 @@ h1.block-title {
 .d-block {
   display: block;
 }
+
+a.work { color: #E42113; text-decoration: none; }
+a.work:hover {color: #666; text-decoration: underline #ccc; cursor: pointer; }
+
 a.contact-num { text-decoration: underline #666666; }
 a.contact-num:hover {color: #E42113; text-decoration: underline #E42113; cursor: pointer;
 }
