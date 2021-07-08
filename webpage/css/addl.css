@@ -114,6 +114,12 @@ h1.block-title {
   cursor: pointer;
 }
 
+.disabled, .disabled:focus {
+  cursor: inherit !important;
+  opacity: .5;
+  text-decoration: none !important;
+}
+
 .prev-arrow-test {
   display: block;
   background-color: #666;
@@ -213,7 +219,6 @@ h1.block-title {
 .text-gray-body {
   color: #666;
 }
-
 
 .d-block {
   display: block;
