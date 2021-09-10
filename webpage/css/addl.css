@@ -126,7 +126,7 @@ h1.block-title {
 .disabled, .disabled:focus {
   cursor: inherit !important;
   opacity: .5;
-  text-decoration: none !important;
+  text-decoration: underline !important;
 }
 
 .prev-arrow-test {
