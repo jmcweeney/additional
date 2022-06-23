@@ -21,7 +21,7 @@ h1, .h1 {
   font-size: 2.5rem; }
 
 h2, .h2 {
-  font-size: 2rem; }
+  font-size: 3rem; }
 
 h3, .h3 {
   font-size: 1.75rem; }
@@ -99,6 +99,10 @@ h1.block-title {
 
 .text-black {
   color: #000 !important;
+}
+
+.title-brands {
+  line-height: 1.1 !important;
 }
 
 /* ----- Navigation ----- */
