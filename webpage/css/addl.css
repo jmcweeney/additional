@@ -291,7 +291,7 @@ a.text-emoji:hover {background-color: #fff; cursor: pointer; border-radius: 5px;
       .display-about-intro {
         font-size: 2.0rem;
         font-weight: 500;
-        line-height: 1.0;
+        line-height: 1.1;
         letter-spacing: -0.03em;
       }
     }
